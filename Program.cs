@@ -3,7 +3,7 @@
 using System.ComponentModel;
 using System.Runtime.InteropServices.Marshalling;
 
-string msgBoasVindas = "Seja bem vindo ao Sonzeras, seu sistema de interação com suas músicas favoritas!!";
+string msgBoasVindas = "Seja bem vindo ao Sonzeras, seu sistema de interação com suas músicas favoritas!!!";
 //List<string> listaDeBandas = new List<string>();
 Dictionary<string, List<int>> bandasNotas = new Dictionary<string, List<int>>
 {
