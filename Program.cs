@@ -3,6 +3,12 @@
 using System.ComponentModel;
 using System.Runtime.InteropServices.Marshalling;
 
+Musica musica1 = new Musica();
+musica1.nome = "RIP";
+musica1.artista = "BMTH";
+musica1.duracao = 2;
+musica1.disponivel = true;
+
 string msgBoasVindas = "Seja bem vindo ao Sonzeras, seu sistema de interação com suas músicas favoritas!!!";
 //List<string> listaDeBandas = new List<string>();
 Dictionary<string, List<int>> bandasNotas = new Dictionary<string, List<int>>
